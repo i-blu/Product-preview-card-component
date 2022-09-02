@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(242 233 226);
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 375px;
+    max-width: 1440px;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.container .main-image img {
+    width: 300px;
+    position: absolute;
+    height: 450px;
+    right: 100%;
+    border-top-left-radius: 15px;
+    border-end-start-radius: 15px;
+    user-select: none;
+
+}
+
+.titles .p1 {
+    letter-spacing: 5px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.titles h1 {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    font-family: Fraunces, sans-serif;
+    width: 236px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.titles .p2 {
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    font-size: 14px;
+    width: 223px;
+    height: 121px;
+    line-height: 20px;
+    opacity: .7;
+}
+
+.prices .older-price {
+    position: absolute;
+    top: 72%;
+    text-decoration-line: line-through;
+    opacity: .5;
+    left: 60%;
+}
+
+.prices .price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 70%;
+    font-size: 30px;
+    left: 10%;
+}
+
+
+.btn button {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    background-color: hsl(158, 36%, 37%);
+    width: 80%;
+    color: white;
+    height: 10%;
+    border-color: transparent;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn img {
+    position: absolute;
+    left: 28%;
+}
+
+.btn  button:hover {
+    background-color: rgb(12, 65, 12);
+
+}
+
+
+@media (min-width: 375px) {
+
+    .container {
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .container .main-image img {
+        width: 350px;
+        position: absolute;
+        height: 264px;
+        right: 0%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        bottom: 100%;
+        display: none;
+    }
+
+    .img-mobile img {
+        background-image: url(images/);
+        width: 350px;
+        position: absolute;
+        height: 264px;
+        right: 0%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        bottom: 100%;   
+    }
+
+    .titles .p1 {
+        letter-spacing: 5px;
+        position: absolute;
+        left: 10%;
+        top: 5%;
+        opacity: .7;
+    }
+
+    .titles h1 {
+        position: absolute;
+        top: 12%;
+        left: 10%;
+        font-family: Fraunces, sans-serif;
+        width: 272px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .titles .p2 {
+        position: absolute;
+        top: 37%;
+        left: 10%;
+        font-size: 13px;
+        width: 293px;
+        height: 121px;
+        line-height: 20px;
+        opacity: .7;
+    }
+    .prices .older-price {
+        position: absolute;
+        top: 68%;
+        text-decoration-line: line-through;
+        opacity: .5;
+        left: 52%;
+    }
+
+    .btn button {
+        position: absolute;
+        top: 85%;
+        left: 8%;
+        background-color: hsl(158, 36%, 37%);
+        width: 83%;
+        color: white;
+        height: 13%;
+        border-color: transparent;
+        border-radius: 10px;
+        font-weight: 700;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .prices .price {
+        color: hsl(158, 36%, 37%);
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 700;
+        position: absolute;
+        top: 65%;
+        font-size: 30px;
+        left: 10%;
+    }
+
+    .btn button {
+        position: absolute;
+        top: 81%;
+        left: 8%;
+        background-color: hsl(158, 36%, 37%);
+        width: 83%;
+        color: white;
+        height: 13%;
+        border-color: transparent;
+        border-radius: 10px;
+        font-weight: 700;
+        cursor: pointer;
+        text-align: center;
+    }
+
+}
